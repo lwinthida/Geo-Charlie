@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>ETD -CU(Mdy)</title>
+       
+    <link rel="stylesheet" href="css/material.min.css">
+    <script src="js/material.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+    <script type="text/javascript" src="js/materialize.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+	<!-- Always shows a header, even in smaller screens. -->
+       <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+         <header class="mdl-layout__header">
+           <div class="mdl-layout__header-row">
+            <!-- Title -->
+      <span class="mdl-layout-title">ETD- CU Mdy</span>
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      <!-- Navigation. We hide it in small screens. -->
+      <nav class="mdl-navigation mdl-layout--large-screen-only" style="background-color:rgb(63,81,181);">
+        <a class="mdl-navigation__link" href="index.html">Home</a>
+        <a class="mdl-navigation__link" href="authors.html">Authors</a>
+        <a class="mdl-navigation__link" href="latest.html">Latest</a>
+        <a class="mdl-navigation__link" href="search.html">Search</a>
+      </nav>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">ETD- CU Mdy</span>
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" href="index.html">Home</a>
+      <a class="mdl-navigation__link" href="authors.html">Authors</a>
+      <a class="mdl-navigation__link" href="latest.html">Latest</a>
+      <a class="mdl-navigation__link" href="search.html">Search</a>
+    </nav>
+  </div>
+
+  <!-- Contact Section -->
+<div id="contact" class="text-center">
+  <div class="container">
+    <div class="section-title text-center">
+      <h2>Contact Form</h2>
+      <hr>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed.</p>
+    </div>
+    <div class="col-md-10 col-md-offset-1">
+      <form name="sentMessage" id="contactForm" novalidate>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="text" id="name" class="form-control" placeholder="Name" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="email" id="email" class="form-control" placeholder="Email" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
+          <p class="help-block text-danger"></p>
+        </div>
+        <div id="success"></div>
+        <button type="submit" class="btn btn-custom btn-lg">Send Message</button>
+      </form>
+    </div>
+  </div>
+</div>
+  
+<!--/contact --><!-- 
+ <div class="bg-agile w3-admission" id="admission">
+  <div class="book-appointment" id="admissions">
+    <d iv class="w3-appoint-head">
+  <h3>Admission Form </h3>
+  </div>
+      <form action="#" method="post">
+      <div class="left-agileits-w3layouts same">
+      <div class="gaps">
+        <p>Student Name</p>
+          <input type="text" name="Patient Name" placeholder="" required=""/>
+      </div>  
+        <div class="gaps">  
+        <p>Phone Number</p>
+          <input type="text" name="Number" placeholder="" required=""/>
+        </div>
+        <div class="gaps">
+        <p>Email</p>
+            <input type="email" name="email" placeholder="" required="" />
+        </div>  
+        <div class="gaps">
+        <p>Parent Name</p>
+          <input type="text" name="Patient Name" placeholder="" required=""/> 
+        </div>
+      </div>
+      <div class="right-agileinfo same">
+      <div class="gaps">
+        <p>Gender</p> 
+          <select class="form-control">
+            <option>Male</option>
+            <option>Female</option>
+          </select>
+      </div>
+      <div class="gaps">
+        <p>Select Date for admission</p>    
+            <input  id="datepicker1" name="Text" type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'mm/dd/yyyy';}" required="">
+      </div>
+      <div class="gaps">
+        <p>Standard</p> 
+          <select class="form-control">
+            <option>1 to 5 Standard </option>
+            <option>6th Standard </option>
+            <option>7th Standard</option>
+            <option>8th Standard</option>
+            <option>9th tandard</option>
+            <option>10th Standard</option>
+            <option>12th Standard</option>
+            <option>Under Graduation</option>
+            <option>Post Graduation</option>
+          </select>
+      </div>
+      <div class="gaps">
+        <p>How do you know about our institute</p>  
+          <select class="form-control">
+            <option>friends </option>
+            <option>on site </option>
+            <option>social media</option>
+          </select>
+      </div>
+      </div>
+      <div class="clearfix"></div>
+              <input type="submit" value="Make an admission">
+      </form>
+  </div>
+</div> -->
+    
+    <!-- <!-- Calendar -->
+        <link rel="stylesheet" href="css/jquery-ui.css" />
+        <script src="js/jquery-ui.js"></script>
+          <script>
+              $(function() {
+              $( "#datepicker,#datepicker1,#datepicker2,#datepicker3" ).datepicker();
+              });
+          </script>
+      <!-- //Calendar --> 
+
+    <footer class="mdl-mega-footer">
+  <div class="mdl-mega-footer__middle-section">
+
+    <div class="mdl-mega-footer__drop-down-section">
+      <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+      <h1 class="mdl-mega-footer__heading">Features</h1>
+      <ul class="mdl-mega-footer__link-list">
+        <li><a href="about.html">About</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Partners</a></li>
+        <li><a href="#">Updates</a></li>
+      </ul>
+    </div>
+
+    <div class="mdl-mega-footer__drop-down-section">
+      <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+      <h1 class="mdl-mega-footer__heading">Details</h1>
+      <ul class="mdl-mega-footer__link-list">
+        <li><a href="#">Specs</a></li>
+        <li><a href="#">Tools</a></li>
+        <li><a href="#">Resources</a></li>
+      </ul>
+    </div>
+
+    <div class="mdl-mega-footer__drop-down-section">
+      <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+      <h1 class="mdl-mega-footer__heading">Technology</h1>
+      <ul class="mdl-mega-footer__link-list">
+        <li><a href="#">How it works</a></li>
+        <li><a href="#">Patterns</a></li>
+        <li><a href="#">Usage</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Contracts</a></li>
+      </ul>
+    </div>
+
+    <div class="mdl-mega-footer__drop-down-section">
+      <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+      <h1 class="mdl-mega-footer__heading">FAQ</h1>
+      <ul class="mdl-mega-footer__link-list">
+        <li><a href="#">Questions</a></li>
+        <li><a href="#">Answers</a></li>
+        <li><a href="#">Contact us</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="mdl-mega-footer__bottom-section">
+    <div class="mdl-logo">Title</div>
+    <ul class="mdl-mega-footer__link-list">
+      <li><a href="#">Help</a></li>
+      <li><a href="#">Privacy & Terms</a></li>
+    </ul>
+  </div>
+
+</footer>             
+    </div>
+    </main>
+   </div>
+   </body>
+</html>
